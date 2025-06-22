@@ -12,12 +12,23 @@ def flownTogether(atLeastNTimes: Int, from: Date, to: Date) = {
 }
 
 
-## Solutions 
+## About Solutions 
 Two solutions are created, 
- - Main.scala -- Uses extensive Spark Dataframe APIs alongside querying constructs / filters to arrive at solution.
- - ScalaAssignment.scala -- Focuses on extracting Dataframe, converting into Datasets using typesafe caseclasses and applying Scala functions to arrive at the solution
+ - Main.scala -- Uses extensive Spark Dataframe APIs alongside querying using Spark constructs like groupBy, select and filters to arrive at solution.
+ - ScalaAssignment.scala -- Focuses on extracting Dataframe, converting into Datasets using typesafe case classes and applying Scala functions to arrive at the solution
 
+## Run Instructions
+- Source CSV files are in the provided in the uploaded folders
+- Execute program by running command : scala-cli ScalaAssignment.scala
+- Note, above program needs Scala-Cli to be installed (Please refer to this link for install steps : https://scala-cli.virtuslab.org/install/) 
+- Output files will be generated in the current folder
+  - Outputs are generated as :
+    - Question 1 : output-TotalFlightsByMonth
+    - Question 2 : output-top100Flyers
+    - Question 3 : output-LongestRun
+    - Question 4 : output-FlownTogetherThrice
+    - Question 5 : output-flownTogetherNTimes
 
 # Data 
-- Two CSVs are provided with flight data and passenger data - flightData.csv, passengers.csv
+- Two CSVs - flightData.csv, passengers.csv
  
