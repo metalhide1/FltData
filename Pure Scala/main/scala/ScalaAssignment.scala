@@ -60,10 +60,10 @@ paxDF.printSchema()
     spark.close() // Close Spark session
 
     totalFlightsByMon(flightDataInfoList)
-//    top100FlyerNames(flightDataInfoList, paxDataInfoList)
-//    longestRunFlyerIds(flightDataInfoList)
-//    flyersFlownThrice(flightDataInfoList)
-//    flownTogetherNTimes(flightDataInfoList, nTimes, fromDte, toDte)
+    top100FlyerNames(flightDataInfoList, paxDataInfoList)
+    longestRunFlyerIds(flightDataInfoList)
+    flyersFlownThrice(flightDataInfoList)
+    flownTogetherNTimes(flightDataInfoList, nTimes, fromDte, toDte)
 
 
     def totalFlightsByMon(flightDataInfoList: List[FlightDataInfo]) : Seq[(Int,Int)] = {
