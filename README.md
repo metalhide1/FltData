@@ -1,5 +1,5 @@
 # Objective
-Data Querying with Spark and Scala - explore Dataframes API and typesafe case classes in different ways.
+Data Querying with Spark (2.4.8) and Scala 2.12.11 - explore Dataframes API and typesafe case classes in different ways.
 
 ## Queries 
 1. Find the total number of flights for each month.
